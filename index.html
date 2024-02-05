@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b15421205a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <nav class="manas">
+        <img src="log3.png" alt="logo" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#portfolio">Project</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-text">
+        <h1>
+          Hello, It's me <br />
+          <span>Manas</span> Singhal
+        </h1>
+        <p>and I'm A <span class="role"></span></p>
+      </div>
+    </div>
+    <div class="about" id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class="ab-col1">
+            <img src="eight.jpeg" alt="" />
+          </div>
+          <div class="ab-col2">
+            <h1 class="sub">About Me</h1>
+            <p>
+              Hello! I'm Manas Singhal, a Full Stack Web Developer based in
+              Dehradun,India. With a strong foundation in HTML, CSS, and
+              JavaScript, I specialize in building seamless and user-friendly
+              web applications. Beyond my web development expertise, I'm an avid
+              LeetCode enthusiast, continuously honing my problem-solving skills
+              through coding challenges. I'm passionate about contributing to
+              open-source projects and staying updated with the latest trends in
+              technology. My commitment to learning extends to attending
+              conferences, participating in hackathons, and exploring emerging
+              technologies. I'm always open to exciting opportunities,
+              collaborations, and interesting projects Let's connect! Feel free
+              to reach out on LinkedIn or explore my code on GitHub. Looking
+              forward to building something amazing together! 🚀
+            </p>
+            <div class="tab-title">
+              <p
+                class="tab-links active-link"
+                onclick="openTab('skills', event)"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('education', event)">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tabs" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>LeetCode</span><br />Problem solving skills.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020</span><br />High School with 93.6% aggregate.
+                </li>
+                <li>
+                  <span>2022</span><br />Secondary School with 95% aggregate
+                </li>
+                <li>
+                  <span>2022-2026</span><br />Pusruing bachelors of technology
+                  in CS.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="service">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Crafting visually appealing, user-friendly websites. We focus on
+              intuitive interfaces that captivate users and enhance their online
+              experience. From concept to execution, we blend creativity and
+              functionality to deliver memorable websites. Elevate your online
+              presence with designs optimized for seamless navigation and
+              engagement. Let's bring your ideas to life with compelling web
+              design.
+            </p>
+            <a href="#" onclick="showAlert()">Learn more.</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-pen"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Elevating digital experiences through thoughtful user interface
+              (UI) and user experience (UX) design. Leveraging the power of
+              Figma, we create visually striking interfaces and seamless
+              interactions that prioritize user engagement. From wireframes to
+              prototypes, our design process ensures a user-centric approach for
+              a delightful digital journey. Transform your concepts into
+              compelling and intuitive designs with our UI/UX expertise using
+              Figma..
+            </p>
+            <a href="#" onclick="showAlert()">Learn more.</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              Crafting impactful visual identities that leave a lasting
+              impression. Our graphic design services specialize in creating
+              eye-catching advertisements and distinctive logos. Whether you
+              need compelling marketing materials or a memorable brand symbol,
+              we bring creativity and strategic design to the forefront. Elevate
+              your brand presence with our expertise in graphic design, where
+              every pixel is meticulously crafted to communicate your unique
+              story effectively.
+            </p>
+            <a href="#" onclick="showAlert()">Learn more.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Creations</h1>
+        <div class="work-list">
+          <div class="work">
+            <div class="img-with-text">
+              <img src="chtbot.svg" alt="sometext" />
+              <div class="overlay-text">
+                <h3>College Chatbot</h3>
+                <p>
+                  The College Companion Chatbot is a virtual assistant designed
+                  to enhance the college experience by providing quick access to
+                  essential information and services for students, faculty, and
+                  visitors.
+                </p>
+                <a href="chatbot.html"
+                  >More About the project <i class="fas fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work" id="work">
+            <div class="img-with-text">
+              <img src="eleventh.jpg" alt="sometext" />
+              <div class="overlay-text">
+                <h3>Portfolio Website</h3>
+                <p>
+                  My portfolio website showcases a diverse collection of my
+                  projects and skills, offering a glimpse into my expertise in
+                  web development and design. With a clean and intuitive layout,
+                  visitors can explore my work, read about my experiences, and
+                  connect with me seamlessly.
+                </p>
+                <a href="portfolio.html"
+                  >More About the project <i class="fas fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="co-left">
+            <h1 class="sub-title sub-title2">Contact Details</h1>
+            <p class="man">
+              <i class="fa-solid fa-envelope"></i>singhalmanas20@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91-9520141813</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/manas._.s_/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+              <a href="https://github.com/singhalmanas23"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="My_Resume (1).pdf" download class="btn btn-2" id="btn3"
+              >Download Resume</a
+            >
+          </div>
+          <div class="co-right">
+            <form name="submit-to-google-sheets">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="E-mail"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Created by Manas Singhal <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </body>
+  <script>
+    function showAlert() {
+      alert(
+        "Kindly submit your query in the message box.I will be back to you as soon as possible."
+      );
+    }
+  </script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function openTab(tabName, event) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tabs");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabName).classList.add("active-tabs");
+    }
+  </script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: ["Coder", "Designer", "Web Developer", "Graphic Designer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzhZEF-7jd1Fh_Sv7n8staGFSCfOS10wC-IjHpiSrdlmiuSu4BuurkbuLbmp2lrojyq/exec";
+    const form = document.forms["submit-to-google-sheets"];
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => console.log("success", response))
+        .catch((error) => console.error("Error", Error.message));
+    });
+  </script>
+</html>
